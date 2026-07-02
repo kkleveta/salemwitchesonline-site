@@ -27,3 +27,30 @@ body {
   height: auto !important;
   max-width: none !important;
 }
+
+.shelf-link {
+  position: absolute;
+  z-index: 10;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.shelf-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.25s ease, filter 0.25s ease;
+}
+
+.shelf-link:hover img {
+  transform: translateY(-6px) scale(1.04);
+  filter: drop-shadow(0 0 14px rgba(255, 255, 255, 0.45));
+}
+
+/* Necklace on the lower left shelf */
+.necklace-object {
+  left: 10%;
+  top: 76%;
+  width: 18%;
+}
