@@ -21,11 +21,18 @@ body {
   background: #050507;
 }
 
+.shelf-stage {
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+  line-height: 0;
+}
+
 .shelf-bg {
   display: block;
-  width: 100vw !important;
-  height: auto !important;
-  max-width: none !important;
+  width: 100%;
+  height: auto;
+  max-width: none;
 }
 
 .shelf-link {
