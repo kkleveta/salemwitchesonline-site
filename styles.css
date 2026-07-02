@@ -16,23 +16,14 @@ body {
 }
 
 .shelf-scene {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   background: #050507;
-  display: block;
-  overflow-x: hidden;
-}
-
-.shelf-stage {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 2 / 3;
-  margin: 0 auto;
 }
 
 .shelf-bg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
   display: block;
+  width: 100vw !important;
+  height: auto !important;
+  max-width: none !important;
 }
