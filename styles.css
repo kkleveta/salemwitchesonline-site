@@ -50,14 +50,9 @@ body {
   transition: transform 0.25s ease, filter 0.25s ease;
 }
 
-.shelf-link:hover img {
-  transform: translateY(-6px) scale(1.04);
-  filter: drop-shadow(0 0 14px rgba(255, 255, 255, 0.45));
-}
-
-/* Necklace on the lower left shelf */
 .necklace-object {
   left: 10%;
   top: 76%;
   width: 18%;
+  outline: 2px solid red; /* временно, чтобы видеть рамку */
 }
