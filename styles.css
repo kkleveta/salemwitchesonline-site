@@ -51,8 +51,7 @@ body {
 }
 
 .necklace-object {
-  left: 10%;
-  top: 76%;
-  width: 18%;
-  outline: 2px solid red; /* временно, чтобы видеть рамку */
+  left: 11%;
+  top: 82%;
+  width: 21%;
 }
